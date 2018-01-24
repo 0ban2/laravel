@@ -47,6 +47,7 @@
 
   <!-- Begin page content -->
   <main role="main" class="container">
+    @include('flash::message')
     <h1>@yield('titulo')</h1>
     @yield('content')
   </main>

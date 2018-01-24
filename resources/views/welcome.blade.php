@@ -76,7 +76,6 @@
                     @endif
                 </div>
             @endif
-            <a href="{{ route('users.create') }}">Crear usuario</a>
 
             <div class="content">
                 <div class="title m-b-md">
