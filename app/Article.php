@@ -14,6 +14,7 @@ class Article extends Model
 		return [
 			'slug' => [
 				'source' => 'title'
+				'bla'=>'bla'
 			]
 		];
 	}
